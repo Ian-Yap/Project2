@@ -1,0 +1,53 @@
+.portfolio-container {
+  text-align: center;
+  max-width: 70%;
+  margin-left: 13rem;
+}
+
+.deleteCrypto {
+  margin-right: 7rem;
+  cursor: pointer;
+}
+
+.deleteCrypto:hover {
+  color: #d54062;
+}
+
+.returnPositive a {
+  color: #228b22 !important;
+  font-weight: 900;
+}
+
+.returnPositive a:hover {
+  color: #228b22;
+}
+
+.returnNegative a {
+  color: #ff0000 !important;
+}
+
+.returnNegative a:hover {
+  color: #ff0000;
+}
+
+.sub-table-headings {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 10rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+}
+
+.sub-table-headings li {
+  padding: 0.5rem 2rem;
+  border: solid;
+  width: 11.2rem;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.sub-table-headings li:not(:nth-child(7)) {
+  background-color: #ebc9a0;
+}

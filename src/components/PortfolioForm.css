@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-top: 1.5rem;
+  color: #1b0303;
+}
+
+.popUpButton {
+  right: 12rem;
+  top: 3rem;
+  position: fixed;
+}
+
+.form-label {
+  padding-left: 25rem;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2rem;
+  color: #1b0303;
+  white-space: nowrap;
+}
+
+.table-headings {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 5 rem;
+  font-family: "Roboto Slab", serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.table-headings li {
+  padding: 0.5rem 2.5rem;
+  border: solid;
+  width: 11rem;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.table-headings li:not(:nth-child(7)) {
+  background-color: #6be524;
+}
+
+.form-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
